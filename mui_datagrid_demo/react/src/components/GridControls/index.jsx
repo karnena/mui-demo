@@ -244,9 +244,9 @@ export default function FullFeaturedDemo() {
   });
 
   const [pagination, setPagination] = React.useState({
-    pagination: false,
+    pagination: true,
     autoPageSize: false,
-    pageSize: undefined,
+    pageSize: 15,
   });
 
   const getActiveTheme = () => {
